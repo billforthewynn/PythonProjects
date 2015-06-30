@@ -13,9 +13,14 @@
 
 def stamps(x):
 	remaining = x #8
+	denominations = (5,2,1)
 	fives = 0 
 	twos = 0 
 	ones = 0  
+
+	while remaining > 0: 
+		for i in denominations:
+			if 
 
 	if remaining / 5 > 0:
 		fives = remaining / 5 
